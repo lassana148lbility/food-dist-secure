@@ -11,11 +11,11 @@ app.use(express.json());
 
 // Database configuration
 const dbConfig = {
-    host: 'localhost',
-    user: 'Las-coding',
-    password: 'Naru2',
-    database: 'Food_Distribution_DB',
-    port: 3306
+    host: 'junction.proxy.rlwy.net',
+    user: 'root',
+    password: 'lVfopVKROWcQtXAomOALCbjAeleNjqcY',
+    database: 'railway',
+    port: 29852
 };
 
 const db = mysql.createConnection(dbConfig);
